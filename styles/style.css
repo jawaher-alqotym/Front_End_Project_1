@@ -1,0 +1,148 @@
+*    {margin: 0px;
+      padding: 0px;
+      scroll-behavior: smooth;}
+
+*:focus {outline: none;}
+
+html {height: 100%;}
+
+body {
+    background: linear-gradient(-45deg, #ff845f, #e73c7e, #5F0A87, #0e011b) no-repeat;
+    background-size: auto;
+    background-size: 400% 400%;
+    color: white;
+    font-size: 12px;
+    line-height: 1.4;
+    font-family: 'Mulish', sans-serif;
+    animation: gradient 15s ease infinite;
+
+}
+
+
+.margin0 {margin: 0px;}
+
+.my-logo{width: 20%;}
+
+.navbar-brand {margin: 0px; padding: 0px; width:auto ;}
+
+.my-nav-item {
+    color: azure; 
+    font-size: 1rem;
+    animation: txt-color-gradient 15s ease infinite; 
+    transition: 0.2s;
+
+}
+
+button {
+   border: none;
+   outline: none;
+   font-size: 1rem;
+   background-color: rgba(0, 0, 0, 0);
+   margin: 0.2rem;
+   transition: 0.2s;
+   animation: txt-color-gradient 15s ease infinite; 
+
+}
+
+input[type=text], textarea{
+    border: none;
+    color: aliceblue;
+    background-color: rgba(0, 0, 0, 0);
+    border-bottom: 2px solid #e73c7e;
+    
+}
+
+.input {
+    height: auto;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    margin-right: 1rem;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.4);
+    width: 55%;
+    margin-left: auto;
+    border-radius: 20px;
+}
+
+div.input button {
+    margin-left: 1rem; 
+    font-size: 12px;}
+
+.list {
+    margin-top:1rem ;
+    padding: 0px;
+    list-style-type:none ;
+    text-align: center;
+    
+    
+}
+
+.list li{
+    padding-top: 0.7rem;
+    padding-bottom: 0.7rem;
+}
+
+nav.navbar {padding-left:1rem ;}
+
+.list li:hover{
+    background-color:rgba(255,132,95, 0.4); 
+}
+
+div.d-flex  button:hover {
+    letter-spacing: 0.5rem ;
+    font-size: 3rem;}
+
+@keyframes gradient {
+    0% {
+        background-position: 0% 50%;
+      
+    }
+    50% {
+        background-position: 100% 50%;
+        
+    }
+    100% {
+        background-position: 0% 50%;
+        
+        
+    }
+}
+
+@keyframes txt-color-gradient {
+    0% {
+        color: white
+    }
+    25% {
+        color: white
+    }
+    50% {
+        color: #0e011b;
+    }
+    75% {
+        color: white
+    }
+    100% {
+        color: white;
+        
+    }
+    
+}
+
+@keyframes no-txt-color-gradient {
+    0% {
+        color: white
+    }
+    25% {
+        color: white
+    }
+    50% {
+        color: white;
+    }
+    75% {
+        color: white
+    }
+    100% {
+        color: white;
+        
+    }
+}

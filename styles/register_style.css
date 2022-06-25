@@ -1,0 +1,51 @@
+*    {margin: 0px;
+    padding: 0px;
+    scroll-behavior: smooth;}
+
+*:focus {outline: none;}
+
+html {height: 100%;}
+
+body {
+  background: linear-gradient(-45deg,#ff845f, #e73c7e) no-repeat;
+  background-size: auto;
+  background-size: 400% 400%;
+  color: white;
+  font-size: 12px;
+  line-height: 1.4;
+  font-family: 'Mulish', sans-serif;
+
+
+}
+
+.margin0 {margin: 0px;}
+
+.my-logo{width: 20%;}
+
+.navbar-brand {margin: 0px; padding: 0px; width:auto ;}
+
+.my-nav-item {
+    color: azure; 
+    font-size: 1rem;
+    transition: 0.2s;
+
+}
+
+input[type=text], input[type=password], input[type=email] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 1rem 0rem;
+    box-sizing: border-box;
+  }
+
+label{ margin: 1rem 0rem; color: #0e011b ;}
+
+.my-container {
+               width: 40%;
+               margin-bottom: 3rem;
+               margin-top: 2rem;
+               margin-left: auto;
+               margin-right: auto;
+               padding: 3rem;
+               border-radius:20px ;
+               background-color: white;}
