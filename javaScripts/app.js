@@ -78,4 +78,34 @@ function delet_task(id){
    
 }
 
+window.addEventListener('load', event=>{
+    keys = Object.keys(localStorage),
+    i = keys.length;
+    i = keys.length;
+    delet_all_tasks()
+    while(i--){
+      ul = document.getElementById("toDo_list");
+      li = document.createElement("li");
+      li.setAttribute("id", `${keys[i]}`);
+      //append button&text to li
+      li.appendChild(document.createTextNode(localStorage.getItem(keys[i])));
+
+      button = document.createElement('button')
+      button.setAttribute('type', 'submit')
+      button.setAttribute('onclick',`delet_task(${keys[i]})`)
+      button.innerHTML = 'Delete'
+    
+      //buttion css
+      button.style = 'animation: no-txt-color-gradient; color: white;'
+
+      li.appendChild(button)
+
+
+      ul.appendChild(li);
+    }
+     
+    
+
+})
+
 
