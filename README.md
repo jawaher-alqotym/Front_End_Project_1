@@ -2,6 +2,11 @@
 # Calming Virtual Space website for working/focus
 It is your calm, digital space to work or relax.
 
+## Screen shoots
+![image](https://user-images.githubusercontent.com/63616896/175804183-06dc7126-6ef7-463f-830a-15ec6a067137.png)
+<img width="956" alt="Screenshot (424)" src="https://user-images.githubusercontent.com/63616896/175804458-1b064dc7-1812-4e15-82fa-3fecee98cb76.png">
+
+
 ## Link
 https://jawaher-alqotym.github.io/Front_End_Project_1/
 
